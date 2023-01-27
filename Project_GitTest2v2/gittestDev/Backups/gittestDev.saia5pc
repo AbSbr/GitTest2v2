@@ -1,0 +1,16 @@
+[Device]
+FileRevision=2
+UserName=Sabur DT
+PG5Version=V2.3.193
+Name=gittestDev
+Description=
+ProgramVersion=1.0
+DeviceID=6AD19861A8F583AA
+NumberOfFiles=0
+DownloadOptions=0x0000101F
+SerialNumber=00000000
+BackupToFlashOptions=0x00000000
+RestoreFromFlashOptions=0x00000000
+DeleteFlashOptions=0x00000000
+DocOptions=0x00000000
+

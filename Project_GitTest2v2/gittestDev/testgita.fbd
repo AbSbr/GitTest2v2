@@ -1,0 +1,51 @@
+;;******************************************************************************
+;;File: testgita.fbd
+;;******************************************************************************
+;; Fupla compiler version: V2.3.193
+;;
+
+$ifndef __SFUPVERS__
+__SFUPVERS__  EQU 23193 ; Fupla version 2.3.193
+$endif
+
+$ifndef __SFUPCOMP__
+__SFUPCOMP__  EQU 23193 ; Fupla compiler version
+ $endif
+
+$include "testgita.inc"
+$include "testgita.sym"
+
+;;
+;; Block: COB COB_0
+;; Pages: 1
+;;
+__PAGE_ID__	DEF	STR	""
+$if 1							;; Block condition
+		COB	COB_0
+			0
+
+;;
+;; Block: COB COB_0
+;; Page: 1/1 
+__PAGE_ID__	DEF	STR	""
+;;
+$if 1
+__FBL_C000001_00___SG_COB_0			EQU		$;; Mark Page position
+_FUPIntMov(     15,                   		;;Copy input label 'K 15' in 
+                ___RegDyn_C000001___SG_COB_0+0, K)		;;network variable.
+;; Position: Blink delay T -  - 32,15
+__fbl_C000001_00_01___SG_COB_0	EQU	$ ;Mark FBox position
+__FBOX_ID__	DEF	1	;
+__FBOX_NAME__	DEF	STR	"Blink delay T"
+_BLINK1(		__high,               	;;Input #1 (En)
+		___RegDyn_C000001___SG_COB_0+0,	;;Input #2 (TV)
+               ___FlgDyn_C000001___SG_COB_0+0,              ;;Output #1 (Q)
+               __stc_id_00001_var_00___SG_COB_0,               ;;Static variable Tim[1].
+               __stc_id_00001_var_01___SG_COB_0)               ;;Static variable Sta[1].
+$endif							;; Page condition
+__EOPP___SG_COB_0_00		EQU		$;Mark Page end position
+_PageProbe(		__EOP___SG_COB_0_00)			;;Mark end of page.
+               ECOB
+$endif							;; Block condition
+
+;; ***** end of file: testgita.fbd *****

@@ -1,0 +1,18 @@
+[MAIN]
+FileVersion=1
+[Libraries]
+Count=1
+LIB0=C:\Users\abo\SBC\PG5 V2.3.1xx\Libs\Std\sfupbase.saialin
+[LIB0]
+Name=S-Fup Base
+ID=_SAIA_SFUPBASE
+Type=FBOX
+Version=V2.7.370
+Author=Saia-Burgess Controls AG
+Distributor=Saia-Burgess Controls AG
+Address=Bahnhofstrasse 18, CH-3280 Murten, Switzerland
+Email=http://www.saia-pcd.com/contact
+Website=http://www.sbc-support.com
+Phone=http://www.saia-pcd.com/contact
+FamCount=1
+Fam0=sfupblin

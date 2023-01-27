@@ -1,0 +1,33 @@
+[Project]
+FileRevision=2
+UserName=Sabur DT
+PG5Version=V2.3.193
+Name=Project_GitTest2v2
+Description=C:\Git\GitTest2v2
+DownloadAllOptions=0xFFFFFFFF
+NumberOfCpus=1
+LastActive=gittestDev
+BackupsDir=C:\Users\abo\OneDrive - Sabur Sp. z o.o. Systemy Automatyki\ProjektyDT\2201_0135_Z_TP_Veolia_Poznan_os_1000lecia\6_Backup\SAIA
+BackupOptions=0x00000000
+
+[LibraryFiles]
+NumberOfLibs=-1
+
+[CommonFiles]
+NumberOfFiles=0
+
+[CPU1]
+Path=gittestDev
+DownloadSeq=1
+DownloadChecked=1
+
+[Redundancy]
+RedundancyEnabled=0
+SingleSymbolFile=0
+PrimaryDeviceName=
+PrimarySymbolFile=
+SecondaryDeviceName=
+SecondarySymbolFile=
+RedundantDeviceName=
+RedundantSymbolFile=
+DownloadOptions=0x00000000

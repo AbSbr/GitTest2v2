@@ -1,0 +1,64 @@
+//PG5 INTERMEDIATE DOCUMENTATION FILE
+//DO NOT EDIT
+V,1
+;,1,L,******************************************************************************
+;,2,L,File: testgita.fbd
+;,3,L,******************************************************************************
+;,4,L,Fupla compiler version: V2.3.193
+;,5,L,
+M+,15,_FUPInit,1,call init macro
+X+,15,16
+C,15,0,ACC    H,L,,,
+C,15,1,OUT    F   0,E,__high,__high,
+C,15,2,ACC    L,L,,,
+C,15,3,OUT    F   0,E,__low,__low,
+X-,15,16
+M-,15,_FUPInit,1,
+;,18,L,
+;,19,L,Block: COB COB_0
+G,19,0,COB,COB_0
+;,20,L,Pages: 1
+;,21,L,
+C,24,0,COB        0,A,COB_0,COB_0,
+C,25,1,           0,L,__abs___0,,
+C,25,3,NOP,L,,,inserted by S-Asm for call to init code
+;,27,L,
+;,28,L,Block: COB COB_0
+G,28,4,COB,COB_0
+;,29,L,Page: 1/1 
+H,29,4,1/1
+;,31,L,
+M+,34,_FUPIntMov,1,Copy input label 'K 15' in 
+C,35,4,LD     R   0,A,___RegDyn_C000001___SG_COB_0,___RegDyn_C000001___SG_COB_0,
+C,35,5,           15,L,__abs___15,,
+M-,35,_FUPIntMov,1,
+;,36,L,Position: Blink delay T -  - 32,15
+I,36,7,32,15,Blink delay T
+M+,40,_Blink1,1,Input #1 (En)
+C,44,7,STL    F   0,E,__high,__high,
+C,44,8,JR     L   6,L,__mac__1ekh._Enbl,,
+C,44,9,LD     T   0,A,__stc_id_00001_var_00___SG_COB_0,__stc_id_00001_var_00___SG_COB_0,
+C,44,10,           0,L,__abs___0,,
+C,44,12,RES    F   0,A,__stc_id_00001_var_01___SG_COB_0,__stc_id_00001_var_01___SG_COB_0,
+C,44,13,JR         6,L,__mac__1ekh._endm,,
+L,44,__mac__1ekh._Enbl:,
+C,44,14,STL    T   0,A,__stc_id_00001_var_00___SG_COB_0,__stc_id_00001_var_00___SG_COB_0,
+C,44,15,JR     L   4,L,__mac__1ekh._endm,,
+C,44,16,COM    F   0,A,__stc_id_00001_var_01___SG_COB_0,__stc_id_00001_var_01___SG_COB_0,
+M+,44,_FUPConv100msToTimer,2,
+C,44,17,COPY   R   0,A,___RegDyn_C000001___SG_COB_0,___RegDyn_C000001___SG_COB_0,
+C,44,18,       T   0,A,__stc_id_00001_var_00___SG_COB_0,__stc_id_00001_var_00___SG_COB_0,
+M-,44,_FUPConv100msToTimer,2,
+L,44,__mac__1ekh._endm:,
+C,44,19,STH    F   0,A,__stc_id_00001_var_01___SG_COB_0,__stc_id_00001_var_01___SG_COB_0,
+C,44,20,OUT    F   0,A,___FlgDyn_C000001___SG_COB_0,___FlgDyn_C000001___SG_COB_0,
+M-,44,_Blink1,1,
+M+,47,_PageProbe,1,Mark end of page.
+C,47,21,LD     R   1,E,__DBSTRC__,__DBSTRC__,
+C,47,22,           0,A,__EOP___SG_COB_0_00,__EOP___SG_COB_0_00,
+C,47,24,CMP    R   0,E,__DBSTRC__,__DBSTRC__,
+C,47,25,       R   1,E,__DBSTRC__,__DBSTRC__,
+C,47,26,CPB    Z   0,E,___REFR,___REFR,
+M-,47,_PageProbe,1,
+C,48,27,ECOB,L,,,
+;,51,L,***** end of file: testgita.fbd *****

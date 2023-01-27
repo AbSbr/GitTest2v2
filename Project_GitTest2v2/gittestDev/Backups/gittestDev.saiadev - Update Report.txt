@@ -1,0 +1,18 @@
+ Update Report.   The 27.01.2023 14:01:41
+Start Synchronizing project to template
+Update: Add Category node name='bacnetsramsize': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="this"><Slot name="this"><Object name="pcd3.controller.pcd3m5560">...<Category name="memory"><Item name="bacnetsramsize">
+Update: Add Category node name='bacnetobjcount': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="this"><Slot name="this"><Object name="pcd3.controller.pcd3m5560">...<Category name="memory"><Item name="bacnetobjcount">
+Update: Add Category node name='log5data': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data">
+Update: Add Category node name='logging5enabled': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="logging5enabled">
+Update: Add Attribut 'section': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="logging5enabled">
+Update: Add Attribut 'attrib': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="logging5enabled">
+Update: Add Attribut 'minfwver': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="logging5enabled">
+Update: Add Category node name='data5holdtime': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="data5holdtime">
+Update: Add Attribut 'section': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="data5holdtime">
+Update: Add Attribut 'attrib': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="data5holdtime">
+Update: Add Attribut 'minfwver': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="data5holdtime">
+Update: Add Category node name='log5storage': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="log5storage">
+Update: Add Attribut 'section': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="log5storage">
+Update: Add Attribut 'attrib': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="log5storage">
+Update: Add Attribut 'minfwver': ...<Object name="pcd3.controller.pcd3m5560">...<Category name="energyfunction"><Slot name="energy"><Object name="pcd.energy.monitoringandlogging">...<Category name="log5data"><Item name="log5storage">
+End Synchronizing project to template
