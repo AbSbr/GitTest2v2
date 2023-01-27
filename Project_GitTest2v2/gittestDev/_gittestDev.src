@@ -121,7 +121,7 @@ DBX 6          ;DBX_REGISTRY
 @0: "ProgramVersion=1.0                 <LF>"
 @0: "ProgramID=6AD19861A8F583AA<LF>"
 @0: "ProgramCRC=00000000<LF>"
-@0: "BuildDateTime=2023/01/27 14:03:25<LF>"
+@0: "BuildDateTime=2023/01/27 14:06:16<LF>"
 @0: "DownloadDateTime=                   <LF>"
 @1: 0 ;NUL terminator
 EDBX
